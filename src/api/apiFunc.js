@@ -3,7 +3,7 @@ import { ApiUrl } from "./apiRoutes";
 
 
 export const apiUrl = import.meta.env.VITE_API;
-console.log(apiUrl)
+console.log("Apii",apiUrl)
 
 export const fetchApi = axios.create({
   baseURL: apiUrl,
